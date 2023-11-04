@@ -3,7 +3,7 @@ import './config/dotenv.js'
 import cors from "cors";
 import morgan from "morgan";
 
-import router from './config/routes.js'
+
 
 import setup from './Database/setup.js'
 setup()
@@ -11,7 +11,7 @@ setup()
 const app = express()
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );

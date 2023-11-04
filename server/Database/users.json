@@ -1,4 +1,4 @@
-[
+const users = [
   {
     "githubId": 1,
     "username": "user1",
@@ -119,5 +119,5 @@
     },
     "Role": "Recruiter",
     "is_admin": false
-  }
-]
+  },
+];

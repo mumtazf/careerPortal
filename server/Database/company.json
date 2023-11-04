@@ -1,50 +1,124 @@
-[
+const users = [
     {
-      "githubId": 9,
-      "name": "Google",
-      "description": "Google is a multinational technology company that specializes in Internet-related services and products. It is known for its search engine, online advertising technologies, cloud computing, and software. Google's mission is to organize the world's information and make it universally accessible and useful.",
-      "picture_url": "https://example.com/google.jpg"
+      "githubId": 1,
+      "username": "user1",
+      "avatarUrl": "https://example.com/avatar1.jpg",
+      "accessToken": "token1",
+      "savedJobs": {
+        "101": true,
+        "102": true
+      },
+      "Role": "Student",
+      "is_admin": false
     },
     {
       "githubId": 2,
-      "name": "Apple Inc.",
-      "description": "Apple Inc. is a leading American technology company known for designing, manufacturing, and marketing consumer electronics, software, and services. It is famous for products like the iPhone, iPad, Mac computers, and iOS operating systems. Apple is committed to innovation, quality, and user-friendly design.",
-      "picture_url": "https://example.com/apple.jpg"
+      "username": "user2",
+      "avatarUrl": "https://example.com/avatar2.jpg",
+      "accessToken": "token2",
+      "savedJobs": {
+        "103": true,
+        "104": true
+      },
+      "Role": "Recruiter",
+      "is_admin":false
     },
+    
     {
       "githubId": 3,
-      "name": "Amazon",
-      "description": "Amazon is a global e-commerce and cloud computing company based in Seattle. It is one of the largest online retailers, offering a wide range of products and services. Amazon Web Services (AWS) is a subsidiary that provides cloud infrastructure and computing solutions to businesses worldwide.",
-      "picture_url": "https://example.com/amazon.jpg"
+      "username": "user3",
+      "avatarUrl": "https://example.com/avatar3.jpg",
+      "accessToken": "token3",
+      "savedJobs": {
+        "105": true,
+        "106": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
     },
     {
       "githubId": 4,
-      "name": "Microsoft",
-      "description": "Microsoft is a multinational technology corporation known for its software products, including the Windows operating system, Microsoft Office suite, and cloud services through Azure. The company's mission is to empower every person and organization on the planet to achieve more.",
-      "picture_url": "https://example.com/microsoft.jpg"
+      "username": "user4",
+      "avatarUrl": "https://example.com/avatar4.jpg",
+      "accessToken": "token4",
+      "savedJobs": {
+        "107": true,
+        "108": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
     },
     {
-      "githubId": 10,
-      "name": "Facebook",
-      "description": "Facebook is a social networking platform founded by Mark Zuckerberg. It connects billions of people worldwide and provides features like profile creation, posting updates, and sharing media. The company also owns Instagram and WhatsApp, offering diverse social communication options.",
-      "picture_url": "https://example.com/facebook.jpg"
+      "githubId": 5,
+      "username": "user5",
+      "avatarUrl": "https://example.com/avatar5.jpg",
+      "accessToken": "token5",
+      "savedJobs": {
+        "109": true,
+        "110": true
+      },
+      "Role": "Admin",
+      "is_admin": true
     },
     {
       "githubId": 6,
-      "name": "Tesla, Inc.",
-      "description": "Tesla, Inc. is an electric vehicle and clean energy company. It is renowned for its electric cars, energy storage solutions, and solar products. Tesla's mission is to accelerate the world's transition to sustainable energy, and it is at the forefront of the electric vehicle industry.",
-      "picture_url": "https://example.com/tesla.jpg"
+      "username": "user6",
+      "avatarUrl": "https://example.com/avatar6.jpg",
+      "accessToken": "token6",
+      "savedJobs": {
+        "111": true,
+        "112": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
     },
     {
       "githubId": 7,
-      "name": "Netflix",
-      "description": "Netflix is a global streaming platform that offers a wide variety of movies, TV shows, and documentaries. It has revolutionized the entertainment industry by providing on-demand content, original productions, and personalized recommendations to subscribers worldwide.",
-      "picture_url": "https://example.com/netflix.jpg"
+      "username": "user7",
+      "avatarUrl": "https://example.com/avatar7.jpg",
+      "accessToken": "token7",
+      "savedJobs": {
+        "113": true,
+        "114": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
     },
     {
       "githubId": 8,
-      "name": "Twitter",
-      "description": "Twitter is a social media platform that allows users to post and interact with short messages known as 'tweets.' It is widely used for real-time updates, news, and social networking. Twitter has had a significant impact on global communication and information sharing.",
-      "picture_url": "https://example.com/twitter.jpg"
-    }
-  ]
+      "username": "user8",
+      "avatarUrl": "https://example.com/avatar8.jpg",
+      "accessToken": "token8",
+      "savedJobs": {
+        "115": true,
+        "116": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
+    },
+    {
+      "githubId": 9,
+      "username": "user9",
+      "avatarUrl": "https://example.com/avatar9.jpg",
+      "accessToken": "token9",
+      "savedJobs": {
+        "117": true,
+        "118": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
+    },
+    {
+      "githubId": 10,
+      "username": "user10",
+      "avatarUrl": "https://example.com/avatar10.jpg",
+      "accessToken": "token10",
+      "savedJobs": {
+        "119": true,
+        "120": true
+      },
+      "Role": "Recruiter",
+      "is_admin": false
+    },
+  ];
+  

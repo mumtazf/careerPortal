@@ -43,9 +43,8 @@ users will be able to filter opportunities based on a number of predefined categ
 
 Application will be able to perform basic crud operations through a backend implementation ✅ 
 
-https://www.loom.com/share/3adf23799b404ef0989ea0578c584629?sid=888b39ba-e539-4404-a1ad-a55c70467c04
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/3adf23799b404ef0989ea0578c584629?sid=2b38a353-49b8-4d00-9549-1b0cea58fbb6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ### [Messages]
 
